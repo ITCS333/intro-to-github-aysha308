@@ -9,7 +9,7 @@
 set -euo pipefail
 
 # --- Configuration ---
-FILE="${1:-../studentinfo.txt}"
+FILE="${1:-studentinfo.txt}"
 EXIT_CODE=0
 
 # --- Color codes for output (compatible with GitHub Actions) ---
